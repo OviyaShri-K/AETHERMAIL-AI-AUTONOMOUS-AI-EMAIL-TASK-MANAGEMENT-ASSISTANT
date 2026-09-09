@@ -1,0 +1,41 @@
+{
+  "overall_accuracy_percentage": 90.90909090909092,
+  "module_metrics": {
+    "Spam Detection": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "Email Classification": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "Actionable Intent Detection": {
+      "accuracy": 0.8181818181818182,
+      "precision": 0.8701298701298701,
+      "recall": 0.8181818181818182,
+      "f1": 0.8151515151515153
+    },
+    "Priority Assignment": {
+      "accuracy": 0.8181818181818182,
+      "precision": 0.8787878787878788,
+      "recall": 0.8181818181818182,
+      "f1": 0.8207792207792207
+    },
+    "Human-in-the-Loop Approval": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "Action Decision Engine": {
+      "accuracy": 0.8181818181818182,
+      "precision": 0.7792207792207791,
+      "recall": 0.8181818181818182,
+      "f1": 0.7828282828282828
+    }
+  }
+}

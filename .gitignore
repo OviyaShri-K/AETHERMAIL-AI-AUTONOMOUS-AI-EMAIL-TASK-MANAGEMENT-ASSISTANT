@@ -1,0 +1,21 @@
+# Node
+node_modules/
+.next/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+
+# Credentials
+backend/client_secret_*.json
+backend/gmail_credentials.json
+
+# Local database
+*.db
+*.sqlite
+*.sqlite3

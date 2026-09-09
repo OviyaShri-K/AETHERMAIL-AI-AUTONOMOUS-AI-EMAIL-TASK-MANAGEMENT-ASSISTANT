@@ -1,0 +1,1279 @@
+[
+  {
+    "email_id": "email_039",
+    "timestamp": "2026-08-25T00:33:00",
+    "sender": "fast-cash@instant-loans-preapproved.biz",
+    "sender_name": "Fast Cash Loans",
+    "recipient": "alex.dev@techcorp.io",
+    "subject": "[SPAM] Pre-approved: $50,000 Unsecured Business Loan at 0% Interest! #39",
+    "body": "Congratulations! You qualify for our instant pre-approved $50,000 credit line with zero collateral required. Click here now to claim your cash before the end of the day: http://instant-loans-preapproved.biz/apply",
+    "ground_truth": {
+      "is_spam": true,
+      "category": "spam",
+      "importance": "low",
+      "is_actionable": false,
+      "tasks": [],
+      "events_deadlines": [],
+      "priority": "Low",
+      "recommended_action": {
+        "action_type": "archive_label",
+        "requires_human_approval": false,
+        "draft_reply": null
+      }
+    }
+  },
+  {
+    "email_id": "email_017",
+    "timestamp": "2026-08-24T02:59:00",
+    "sender": "elena.client@globalfirm.org",
+    "sender_name": "Elena Rostova",
+    "recipient": "alex.dev@techcorp.io",
+    "subject": "[WORK] Contract Renewal Q4 & Feedback Form #17",
+    "body": "Dear Alex,\n\nWe are preparing the Q4 service contract renewal. Please complete the attached vendor feedback form and submit it to our procurement team by August 31, 2026 at 5:00 PM.\n\nKind regards,\nElena",
+    "ground_truth": {
+      "is_spam": false,
+      "category": "work",
+      "importance": "high",
+      "is_actionable": true,
+      "tasks": [
+        {
+          "title": "Complete and submit vendor feedback form for Q4 renewal",
+          "description": "Fill out attached procurement form and email to Elena by Aug 31",
+          "assignee": "user",
+          "status": "pending"
+        }
+      ],
+      "events_deadlines": [
+        {
+          "type": "deadline",
+          "raw_text": "August 31, 2026 at 5:00 PM",
+          "normalized_datetime": "2026-08-31T17:00:00",
+          "description": "Submit vendor feedback form"
+        }
+      ],
+      "priority": "High",
+      "recommended_action": {
+        "action_type": "create_task_and_reminder",
+        "requires_human_approval": true,
+        "draft_reply": "Dear Elena, thank you. I will complete the feedback form and submit it before August 31, 5:00 PM."
+      }
+    }
+  },
+  {
+    "email_id": "email_015",
+    "timestamp": "2026-08-24T00:45:00",
+    "sender": "dr.john.okoro@nigerian-oil-board.org",
+    "sender_name": "Barrister John Okoro",
+    "recipient": "alex.dev@techcorp.io",
+    "subject": "[SPAM] Confidential Business Proposal: Transfer of $18.5M USD #15",
+    "body": "Dear Respected Friend,\n\nI am the personal attorney to a deceased expatriate who left funds totaling $18.5M USD with no beneficiary. I seek your partnership to claim these funds legally. You will receive 30% of total sum.\n\nPlease reply immediately with your passport copy.",
+    "ground_truth": {
+      "is_spam": true,
+      "category": "spam",
+      "importance": "low",
+      "is_actionable": false,
+      "tasks": [],
+      "events_deadlines": [],
+      "priority": "Low",
+      "recommended_action": {
+        "action_type": "archive_label",
+        "requires_human_approval": false,
+        "draft_reply": null
+      }
+    }
+  },
+  {
+    "email_id": "email_044",
+    "timestamp": "2026-08-25T05:08:00",
+    "sender": "service@uber.com",
+    "sender_name": "Uber Receipts",
+    "recipient": "alex.dev@techcorp.io",
+    "subject": "[NOTIFICATION] Your Sunday evening trip with Uber #44",
+    "body": "Total: $24.80\nDate: Aug 23, 2026\nDriver: Carlos\nPickup: 5th Avenue\nDropoff: Market Street\n\nThanks for riding with Uber. You can view your invoice anytime in the app.",
+    "ground_truth": {
+      "is_spam": false,
+      "category": "notification",
+      "importance": "low",
+      "is_actionable": false,
+      "tasks": [],
+      "events_deadlines": [],
+      "priority": "Low",
+      "recommended_action": {
+        "action_type": "archive_label",
+        "requires_human_approval": false,
+        "draft_reply": null
+      }
+    }
+  },
+  {
+    "email_id": "email_020",
+    "timestamp": "2026-08-24T05:20:00",
+    "sender": "reception@cityhealthclinic.com",
+    "sender_name": "City Health Clinic",
+    "recipient": "alex.dev@techcorp.io",
+    "subject": "[PERSONAL] Appointment Confirmation & Pre-visit Form #20",
+    "body": "Hello Alex,\n\nThis is a reminder for your annual physical exam scheduled for Thursday, September 3 at 11:00 AM.\n\nPlease complete your online medical history intake form at least 24 hours in advance by Sept 2 at 11:00 AM.\n\nClinic Staff",
+    "ground_truth": {
+      "is_spam": false,
+      "category": "personal",
+      "importance": "high",
+      "is_actionable": true,
+      "tasks": [
+        {
+          "title": "Fill out medical history intake form for annual physical",
+          "description": "Complete clinic intake form online 24h prior to appointment",
+          "assignee": "user",
+          "status": "pending"
+        }
+      ],
+      "events_deadlines": [
+        {
+          "type": "deadline",
+          "raw_text": "Sept 2 at 11:00 AM",
+          "normalized_datetime": "2026-09-02T11:00:00",
+          "description": "Complete clinic pre-visit intake form"
+        },
+        {
+          "type": "event",
+          "raw_text": "Thursday, September 3 at 11:00 AM",
+          "normalized_datetime": "2026-09-03T11:00:00",
+          "description": "Annual physical appointment"
+        }
+      ],
+      "priority": "High",
+      "recommended_action": {
+        "action_type": "create_task_and_reminder",
+        "requires_human_approval": false,
+        "draft_reply": null
+      }
+    }
+  },
+  {
+    "email_id": "email_005",
+    "timestamp": "2026-08-23T13:00:00",
+    "sender": "no-reply@github.com",
+    "sender_name": "GitHub Notifications",
+    "recipient": "alex.dev@techcorp.io",
+    "subject": "[GitHub] Run Succeeded: Deploy to Production #142",
+    "body": "GitHub Actions workflow 'Production Deployment' has completed successfully.\n\nCommit: a8f9b1c (Merge pull request #89 from techcorp/feature-auth)\nBranch: main\nDuration: 4m 12s\n\nView build logs: https://github.com/techcorp/backend/actions/runs/142",
+    "ground_truth": {
+      "is_spam": false,
+      "category": "notification",
+      "importance": "medium",
+      "is_actionable": false,
+      "tasks": [],
+      "events_deadlines": [],
+      "priority": "Low",
+      "recommended_action": {
+        "action_type": "archive_label",
+        "requires_human_approval": false,
+        "draft_reply": null
+      }
+    }
+  },
+  {
+    "email_id": "email_024",
+    "timestamp": "2026-08-24T09:48:00",
+    "sender": "service@uber.com",
+    "sender_name": "Uber Receipts",
+    "recipient": "alex.dev@techcorp.io",
+    "subject": "[NOTIFICATION] Your Sunday evening trip with Uber #24",
+    "body": "Total: $24.80\nDate: Aug 23, 2026\nDriver: Carlos\nPickup: 5th Avenue\nDropoff: Market Street\n\nThanks for riding with Uber. You can view your invoice anytime in the app.",
+    "ground_truth": {
+      "is_spam": false,
+      "category": "notification",
+      "importance": "low",
+      "is_actionable": false,
+      "tasks": [],
+      "events_deadlines": [],
+      "priority": "Low",
+      "recommended_action": {
+        "action_type": "archive_label",
+        "requires_human_approval": false,
+        "draft_reply": null
+      }
+    }
+  },
+  {
+    "email_id": "email_046",
+    "timestamp": "2026-08-25T07:22:00",
+    "sender": "michael.friend@gmail.com",
+    "sender_name": "Michael Chang",
+    "recipient": "alex.dev@techcorp.io",
+    "subject": "[PERSONAL] Camping Trip Planning for Next Weekend #46",
+    "body": "Hey Alex,\n\nAre we still on for Yosemite next weekend (Sept 5-7)? Let me know if you can book the campsite by this Friday night, otherwise all spots will be taken!\n\nCheers,\nMike",
+    "ground_truth": {
+      "is_spam": false,
+      "category": "personal",
+      "importance": "medium",
+      "is_actionable": true,
+      "tasks": [
+        {
+          "title": "Book Yosemite campsite for Sept 5-7 trip",
+          "description": "Reserve campsite online before Friday night",
+          "assignee": "user",
+          "status": "pending"
+        }
+      ],
+      "events_deadlines": [
+        {
+          "type": "deadline",
+          "raw_text": "this Friday night",
+          "normalized_datetime": "2026-08-28T22:00:00",
+          "description": "Reserve Yosemite campsite"
+        }
+      ],
+      "priority": "Medium",
+      "recommended_action": {
+        "action_type": "create_task_and_reminder",
+        "requires_human_approval": true,
+        "draft_reply": "Hey Mike, yes I'm in! I'll book the campsite tonight and share the reservation details with you."
+      }
+    }
+  },
+  {
+    "email_id": "email_028",
+    "timestamp": "2026-08-24T13:16:00",
+    "sender": "alerts@datadog.com",
+    "sender_name": "Datadog Alert",
+    "recipient": "alex.dev@techcorp.io",
+    "subject": "[NOTIFICATION] [Warn] Memory usage > 85% on prod-worker-04 #28",
+    "body": "Datadog Monitor Alert:\nHost: prod-worker-04\nMetric: system.mem.used > 85% for 15 mins.\nStatus: Warning\nDashboard: https://app.datadoghq.com/monitors/88219",
+    "ground_truth": {
+      "is_spam": false,
+      "category": "notification",
+      "importance": "medium",
+      "is_actionable": false,
+      "tasks": [],
+      "events_deadlines": [],
+      "priority": "Medium",
+      "recommended_action": {
+        "action_type": "archive_label",
+        "requires_human_approval": false,
+        "draft_reply": null
+      }
+    }
+  },
+  {
+    "email_id": "email_014",
+    "timestamp": "2026-08-23T23:38:00",
+    "sender": "service@uber.com",
+    "sender_name": "Uber Receipts",
+    "recipient": "alex.dev@techcorp.io",
+    "subject": "[NOTIFICATION] Your Sunday evening trip with Uber #14",
+    "body": "Total: $24.80\nDate: Aug 23, 2026\nDriver: Carlos\nPickup: 5th Avenue\nDropoff: Market Street\n\nThanks for riding with Uber. You can view your invoice anytime in the app.",
+    "ground_truth": {
+      "is_spam": false,
+      "category": "notification",
+      "importance": "low",
+      "is_actionable": false,
+      "tasks": [],
+      "events_deadlines": [],
+      "priority": "Low",
+      "recommended_action": {
+        "action_type": "archive_label",
+        "requires_human_approval": false,
+        "draft_reply": null
+      }
+    }
+  },
+  {
+    "email_id": "email_033",
+    "timestamp": "2026-08-24T18:51:00",
+    "sender": "deals@techgear.shop",
+    "sender_name": "TechGear Shop",
+    "recipient": "alex.dev@techcorp.io",
+    "subject": "[PROMOTIONAL] Back to School Tech Deals - Up to 40% Off Laptops & Monitors #33",
+    "body": "Don't miss our biggest tech sale of the summer! Get top-tier 4K monitors, mechanical keyboards, and noise-canceling headphones at unbeatable prices.\n\nShop now: https://techgear.shop/deals\n\nSale expires Monday, Aug 31 at 11:59 PM.",
+    "ground_truth": {
+      "is_spam": false,
+      "category": "promotional",
+      "importance": "low",
+      "is_actionable": false,
+      "tasks": [],
+      "events_deadlines": [
+        {
+          "type": "event",
+          "raw_text": "Monday, Aug 31 at 11:59 PM",
+          "normalized_datetime": "2026-08-31T23:59:00",
+          "description": "TechGear sale expiration"
+        }
+      ],
+      "priority": "Low",
+      "recommended_action": {
+        "action_type": "archive_label",
+        "requires_human_approval": false,
+        "draft_reply": null
+      }
+    }
+  },
+  {
+    "email_id": "email_003",
+    "timestamp": "2026-08-23T11:00:00",
+    "sender": "rewards@claim-crypto-bonus-now.xyz",
+    "sender_name": "Global Reward Center",
+    "recipient": "alex.dev@techcorp.io",
+    "subject": "CONGRATULATIONS! You have won $5,000 in Bitcoin! Claim within 24 hours!",
+    "body": "Dear valued customer,\n\nYour email address has been selected as the 1st prize winner of 0.15 BTC ($5,000 USD). \n\nClick the link below immediately to connect your wallet and withdraw your prize:\nhttp://claim-crypto-bonus-now.xyz/claim?id=99283\n\nFailure to claim within 24 hours will forfeit your rewards.",
+    "ground_truth": {
+      "is_spam": true,
+      "category": "spam",
+      "importance": "low",
+      "is_actionable": false,
+      "tasks": [],
+      "events_deadlines": [],
+      "priority": "Low",
+      "recommended_action": {
+        "action_type": "archive_label",
+        "requires_human_approval": false,
+        "draft_reply": null
+      }
+    }
+  },
+  {
+    "email_id": "email_049",
+    "timestamp": "2026-08-25T10:43:00",
+    "sender": "fast-cash@instant-loans-preapproved.biz",
+    "sender_name": "Fast Cash Loans",
+    "recipient": "alex.dev@techcorp.io",
+    "subject": "[SPAM] Pre-approved: $50,000 Unsecured Business Loan at 0% Interest! #49",
+    "body": "Congratulations! You qualify for our instant pre-approved $50,000 credit line with zero collateral required. Click here now to claim your cash before the end of the day: http://instant-loans-preapproved.biz/apply",
+    "ground_truth": {
+      "is_spam": true,
+      "category": "spam",
+      "importance": "low",
+      "is_actionable": false,
+      "tasks": [],
+      "events_deadlines": [],
+      "priority": "Low",
+      "recommended_action": {
+        "action_type": "archive_label",
+        "requires_human_approval": false,
+        "draft_reply": null
+      }
+    }
+  },
+  {
+    "email_id": "email_018",
+    "timestamp": "2026-08-24T03:06:00",
+    "sender": "alerts@datadog.com",
+    "sender_name": "Datadog Alert",
+    "recipient": "alex.dev@techcorp.io",
+    "subject": "[NOTIFICATION] [Warn] Memory usage > 85% on prod-worker-04 #18",
+    "body": "Datadog Monitor Alert:\nHost: prod-worker-04\nMetric: system.mem.used > 85% for 15 mins.\nStatus: Warning\nDashboard: https://app.datadoghq.com/monitors/88219",
+    "ground_truth": {
+      "is_spam": false,
+      "category": "notification",
+      "importance": "medium",
+      "is_actionable": false,
+      "tasks": [],
+      "events_deadlines": [],
+      "priority": "Medium",
+      "recommended_action": {
+        "action_type": "archive_label",
+        "requires_human_approval": false,
+        "draft_reply": null
+      }
+    }
+  },
+  {
+    "email_id": "email_007",
+    "timestamp": "2026-08-23T15:00:00",
+    "sender": "hr@techcorp.io",
+    "sender_name": "TechCorp People Operations",
+    "recipient": "alex.dev@techcorp.io",
+    "subject": "Annual Cybersecurity Awareness Training - Due Sept 15",
+    "body": "Dear Employee,\n\nAs part of our compliance standards, all staff members are required to complete the 2026 Annual Cybersecurity Training module.\n\nThe course takes approximately 45 minutes to complete.\n\nPlease log in to the portal and finish the module by September 15, 2026, 6:00 PM.\n\nLink: https://learning.techcorp.io/course/sec-2026\n\nThank you,\nPeople Operations",
+    "ground_truth": {
+      "is_spam": false,
+      "category": "work",
+      "importance": "medium",
+      "is_actionable": true,
+      "tasks": [
+        {
+          "title": "Complete Annual Cybersecurity Awareness Training",
+          "description": "Finish 45-min online training module on learning portal",
+          "assignee": "user",
+          "status": "pending"
+        }
+      ],
+      "events_deadlines": [
+        {
+          "type": "deadline",
+          "raw_text": "September 15, 2026, 6:00 PM",
+          "normalized_datetime": "2026-09-15T18:00:00",
+          "description": "Cybersecurity compliance training due date"
+        }
+      ],
+      "priority": "Low",
+      "recommended_action": {
+        "action_type": "create_task_and_reminder",
+        "requires_human_approval": false,
+        "draft_reply": null
+      }
+    }
+  },
+  {
+    "email_id": "email_037",
+    "timestamp": "2026-08-24T22:19:00",
+    "sender": "elena.client@globalfirm.org",
+    "sender_name": "Elena Rostova",
+    "recipient": "alex.dev@techcorp.io",
+    "subject": "[WORK] Contract Renewal Q4 & Feedback Form #37",
+    "body": "Dear Alex,\n\nWe are preparing the Q4 service contract renewal. Please complete the attached vendor feedback form and submit it to our procurement team by August 31, 2026 at 5:00 PM.\n\nKind regards,\nElena",
+    "ground_truth": {
+      "is_spam": false,
+      "category": "work",
+      "importance": "high",
+      "is_actionable": true,
+      "tasks": [
+        {
+          "title": "Complete and submit vendor feedback form for Q4 renewal",
+          "description": "Fill out attached procurement form and email to Elena by Aug 31",
+          "assignee": "user",
+          "status": "pending"
+        }
+      ],
+      "events_deadlines": [
+        {
+          "type": "deadline",
+          "raw_text": "August 31, 2026 at 5:00 PM",
+          "normalized_datetime": "2026-08-31T17:00:00",
+          "description": "Submit vendor feedback form"
+        }
+      ],
+      "priority": "High",
+      "recommended_action": {
+        "action_type": "create_task_and_reminder",
+        "requires_human_approval": true,
+        "draft_reply": "Dear Elena, thank you. I will complete the feedback form and submit it before August 31, 5:00 PM."
+      }
+    }
+  },
+  {
+    "email_id": "email_035",
+    "timestamp": "2026-08-24T20:05:00",
+    "sender": "dr.john.okoro@nigerian-oil-board.org",
+    "sender_name": "Barrister John Okoro",
+    "recipient": "alex.dev@techcorp.io",
+    "subject": "[SPAM] Confidential Business Proposal: Transfer of $18.5M USD #35",
+    "body": "Dear Respected Friend,\n\nI am the personal attorney to a deceased expatriate who left funds totaling $18.5M USD with no beneficiary. I seek your partnership to claim these funds legally. You will receive 30% of total sum.\n\nPlease reply immediately with your passport copy.",
+    "ground_truth": {
+      "is_spam": true,
+      "category": "spam",
+      "importance": "low",
+      "is_actionable": false,
+      "tasks": [],
+      "events_deadlines": [],
+      "priority": "Low",
+      "recommended_action": {
+        "action_type": "archive_label",
+        "requires_human_approval": false,
+        "draft_reply": null
+      }
+    }
+  },
+  {
+    "email_id": "email_025",
+    "timestamp": "2026-08-24T10:55:00",
+    "sender": "dr.john.okoro@nigerian-oil-board.org",
+    "sender_name": "Barrister John Okoro",
+    "recipient": "alex.dev@techcorp.io",
+    "subject": "[SPAM] Confidential Business Proposal: Transfer of $18.5M USD #25",
+    "body": "Dear Respected Friend,\n\nI am the personal attorney to a deceased expatriate who left funds totaling $18.5M USD with no beneficiary. I seek your partnership to claim these funds legally. You will receive 30% of total sum.\n\nPlease reply immediately with your passport copy.",
+    "ground_truth": {
+      "is_spam": true,
+      "category": "spam",
+      "importance": "low",
+      "is_actionable": false,
+      "tasks": [],
+      "events_deadlines": [],
+      "priority": "Low",
+      "recommended_action": {
+        "action_type": "archive_label",
+        "requires_human_approval": false,
+        "draft_reply": null
+      }
+    }
+  },
+  {
+    "email_id": "email_036",
+    "timestamp": "2026-08-24T21:12:00",
+    "sender": "michael.friend@gmail.com",
+    "sender_name": "Michael Chang",
+    "recipient": "alex.dev@techcorp.io",
+    "subject": "[PERSONAL] Camping Trip Planning for Next Weekend #36",
+    "body": "Hey Alex,\n\nAre we still on for Yosemite next weekend (Sept 5-7)? Let me know if you can book the campsite by this Friday night, otherwise all spots will be taken!\n\nCheers,\nMike",
+    "ground_truth": {
+      "is_spam": false,
+      "category": "personal",
+      "importance": "medium",
+      "is_actionable": true,
+      "tasks": [
+        {
+          "title": "Book Yosemite campsite for Sept 5-7 trip",
+          "description": "Reserve campsite online before Friday night",
+          "assignee": "user",
+          "status": "pending"
+        }
+      ],
+      "events_deadlines": [
+        {
+          "type": "deadline",
+          "raw_text": "this Friday night",
+          "normalized_datetime": "2026-08-28T22:00:00",
+          "description": "Reserve Yosemite campsite"
+        }
+      ],
+      "priority": "Medium",
+      "recommended_action": {
+        "action_type": "create_task_and_reminder",
+        "requires_human_approval": true,
+        "draft_reply": "Hey Mike, yes I'm in! I'll book the campsite tonight and share the reservation details with you."
+      }
+    }
+  },
+  {
+    "email_id": "email_032",
+    "timestamp": "2026-08-24T17:44:00",
+    "sender": "sam.legal@techcorp.io",
+    "sender_name": "Samira Legal",
+    "recipient": "alex.dev@techcorp.io",
+    "subject": "[WORK] NDA Signature Required for Partner Alpha #32",
+    "body": "Hi Alex,\n\nAttached is the non-disclosure agreement for our upcoming partnership with Partner Alpha. Please sign and return the executed PDF by Thursday at 12:00 PM.\n\nBest,\nSamira",
+    "ground_truth": {
+      "is_spam": false,
+      "category": "work",
+      "importance": "medium",
+      "is_actionable": true,
+      "tasks": [
+        {
+          "title": "Sign and return Partner Alpha NDA PDF",
+          "description": "Sign executed NDA and email back to Samira by Thursday noon",
+          "assignee": "user",
+          "status": "pending"
+        }
+      ],
+      "events_deadlines": [
+        {
+          "type": "deadline",
+          "raw_text": "Thursday at 12:00 PM",
+          "normalized_datetime": "2026-08-27T12:00:00",
+          "description": "Signed NDA due to Legal"
+        }
+      ],
+      "priority": "Medium",
+      "recommended_action": {
+        "action_type": "create_task_and_reminder",
+        "requires_human_approval": true,
+        "draft_reply": "Hi Samira, received. I will sign and return the NDA before Thursday 12:00 PM."
+      }
+    }
+  },
+  {
+    "email_id": "email_029",
+    "timestamp": "2026-08-24T14:23:00",
+    "sender": "fast-cash@instant-loans-preapproved.biz",
+    "sender_name": "Fast Cash Loans",
+    "recipient": "alex.dev@techcorp.io",
+    "subject": "[SPAM] Pre-approved: $50,000 Unsecured Business Loan at 0% Interest! #29",
+    "body": "Congratulations! You qualify for our instant pre-approved $50,000 credit line with zero collateral required. Click here now to claim your cash before the end of the day: http://instant-loans-preapproved.biz/apply",
+    "ground_truth": {
+      "is_spam": true,
+      "category": "spam",
+      "importance": "low",
+      "is_actionable": false,
+      "tasks": [],
+      "events_deadlines": [],
+      "priority": "Low",
+      "recommended_action": {
+        "action_type": "archive_label",
+        "requires_human_approval": false,
+        "draft_reply": null
+      }
+    }
+  },
+  {
+    "email_id": "email_021",
+    "timestamp": "2026-08-24T06:27:00",
+    "sender": "rachel.pm@techcorp.io",
+    "sender_name": "Rachel Green (Product)",
+    "recipient": "alex.dev@techcorp.io",
+    "subject": "[WORK] Sprint 42 Backlog Grooming Action Items #21",
+    "body": "Hi Alex,\n\nFollowing our grooming session, please estimate story points for tickets TECH-401 through TECH-410 by tomorrow at 2:00 PM. Also, please review the PR from backend team before end of day Wednesday.\n\nThanks,\nRachel",
+    "ground_truth": {
+      "is_spam": false,
+      "category": "work",
+      "importance": "high",
+      "is_actionable": true,
+      "tasks": [
+        {
+          "title": "Estimate story points for tickets TECH-401 to TECH-410",
+          "description": "Add estimates in Jira by tomorrow 2 PM",
+          "assignee": "user",
+          "status": "pending"
+        },
+        {
+          "title": "Review backend team Pull Request",
+          "description": "Review PR before end of day Wednesday",
+          "assignee": "user",
+          "status": "pending"
+        }
+      ],
+      "events_deadlines": [
+        {
+          "type": "deadline",
+          "raw_text": "tomorrow at 2:00 PM",
+          "normalized_datetime": "2026-08-24T14:00:00",
+          "description": "Jira ticket point estimations"
+        },
+        {
+          "type": "deadline",
+          "raw_text": "end of day Wednesday",
+          "normalized_datetime": "2026-08-26T18:00:00",
+          "description": "Backend PR review"
+        }
+      ],
+      "priority": "High",
+      "recommended_action": {
+        "action_type": "create_task_and_reminder",
+        "requires_human_approval": true,
+        "draft_reply": "Hi Rachel, I'll finish the story point estimates by 2 PM tomorrow and review the PR by Wednesday. Thanks!"
+      }
+    }
+  },
+  {
+    "email_id": "email_026",
+    "timestamp": "2026-08-24T11:02:00",
+    "sender": "michael.friend@gmail.com",
+    "sender_name": "Michael Chang",
+    "recipient": "alex.dev@techcorp.io",
+    "subject": "[PERSONAL] Camping Trip Planning for Next Weekend #26",
+    "body": "Hey Alex,\n\nAre we still on for Yosemite next weekend (Sept 5-7)? Let me know if you can book the campsite by this Friday night, otherwise all spots will be taken!\n\nCheers,\nMike",
+    "ground_truth": {
+      "is_spam": false,
+      "category": "personal",
+      "importance": "medium",
+      "is_actionable": true,
+      "tasks": [
+        {
+          "title": "Book Yosemite campsite for Sept 5-7 trip",
+          "description": "Reserve campsite online before Friday night",
+          "assignee": "user",
+          "status": "pending"
+        }
+      ],
+      "events_deadlines": [
+        {
+          "type": "deadline",
+          "raw_text": "this Friday night",
+          "normalized_datetime": "2026-08-28T22:00:00",
+          "description": "Reserve Yosemite campsite"
+        }
+      ],
+      "priority": "Medium",
+      "recommended_action": {
+        "action_type": "create_task_and_reminder",
+        "requires_human_approval": true,
+        "draft_reply": "Hey Mike, yes I'm in! I'll book the campsite tonight and share the reservation details with you."
+      }
+    }
+  },
+  {
+    "email_id": "email_012",
+    "timestamp": "2026-08-23T21:24:00",
+    "sender": "sam.legal@techcorp.io",
+    "sender_name": "Samira Legal",
+    "recipient": "alex.dev@techcorp.io",
+    "subject": "[WORK] NDA Signature Required for Partner Alpha #12",
+    "body": "Hi Alex,\n\nAttached is the non-disclosure agreement for our upcoming partnership with Partner Alpha. Please sign and return the executed PDF by Thursday at 12:00 PM.\n\nBest,\nSamira",
+    "ground_truth": {
+      "is_spam": false,
+      "category": "work",
+      "importance": "medium",
+      "is_actionable": true,
+      "tasks": [
+        {
+          "title": "Sign and return Partner Alpha NDA PDF",
+          "description": "Sign executed NDA and email back to Samira by Thursday noon",
+          "assignee": "user",
+          "status": "pending"
+        }
+      ],
+      "events_deadlines": [
+        {
+          "type": "deadline",
+          "raw_text": "Thursday at 12:00 PM",
+          "normalized_datetime": "2026-08-27T12:00:00",
+          "description": "Signed NDA due to Legal"
+        }
+      ],
+      "priority": "Medium",
+      "recommended_action": {
+        "action_type": "create_task_and_reminder",
+        "requires_human_approval": true,
+        "draft_reply": "Hi Samira, received. I will sign and return the NDA before Thursday 12:00 PM."
+      }
+    }
+  },
+  {
+    "email_id": "email_048",
+    "timestamp": "2026-08-25T09:36:00",
+    "sender": "alerts@datadog.com",
+    "sender_name": "Datadog Alert",
+    "recipient": "alex.dev@techcorp.io",
+    "subject": "[NOTIFICATION] [Warn] Memory usage > 85% on prod-worker-04 #48",
+    "body": "Datadog Monitor Alert:\nHost: prod-worker-04\nMetric: system.mem.used > 85% for 15 mins.\nStatus: Warning\nDashboard: https://app.datadoghq.com/monitors/88219",
+    "ground_truth": {
+      "is_spam": false,
+      "category": "notification",
+      "importance": "medium",
+      "is_actionable": false,
+      "tasks": [],
+      "events_deadlines": [],
+      "priority": "Medium",
+      "recommended_action": {
+        "action_type": "archive_label",
+        "requires_human_approval": false,
+        "draft_reply": null
+      }
+    }
+  },
+  {
+    "email_id": "email_011",
+    "timestamp": "2026-08-23T20:17:00",
+    "sender": "rachel.pm@techcorp.io",
+    "sender_name": "Rachel Green (Product)",
+    "recipient": "alex.dev@techcorp.io",
+    "subject": "[WORK] Sprint 42 Backlog Grooming Action Items #11",
+    "body": "Hi Alex,\n\nFollowing our grooming session, please estimate story points for tickets TECH-401 through TECH-410 by tomorrow at 2:00 PM. Also, please review the PR from backend team before end of day Wednesday.\n\nThanks,\nRachel",
+    "ground_truth": {
+      "is_spam": false,
+      "category": "work",
+      "importance": "high",
+      "is_actionable": true,
+      "tasks": [
+        {
+          "title": "Estimate story points for tickets TECH-401 to TECH-410",
+          "description": "Add estimates in Jira by tomorrow 2 PM",
+          "assignee": "user",
+          "status": "pending"
+        },
+        {
+          "title": "Review backend team Pull Request",
+          "description": "Review PR before end of day Wednesday",
+          "assignee": "user",
+          "status": "pending"
+        }
+      ],
+      "events_deadlines": [
+        {
+          "type": "deadline",
+          "raw_text": "tomorrow at 2:00 PM",
+          "normalized_datetime": "2026-08-24T14:00:00",
+          "description": "Jira ticket point estimations"
+        },
+        {
+          "type": "deadline",
+          "raw_text": "end of day Wednesday",
+          "normalized_datetime": "2026-08-26T18:00:00",
+          "description": "Backend PR review"
+        }
+      ],
+      "priority": "High",
+      "recommended_action": {
+        "action_type": "create_task_and_reminder",
+        "requires_human_approval": true,
+        "draft_reply": "Hi Rachel, I'll finish the story point estimates by 2 PM tomorrow and review the PR by Wednesday. Thanks!"
+      }
+    }
+  },
+  {
+    "email_id": "email_002",
+    "timestamp": "2026-08-23T10:00:00",
+    "sender": "david.ross@clientpartner.com",
+    "sender_name": "David Ross",
+    "recipient": "alex.dev@techcorp.io",
+    "subject": "API Integration Feedback & Sync Request",
+    "body": "Hello Alex,\n\nOur engineering team tested the new webhook endpoints. Overall it looks great, but we found a timeout issue on the /v1/payments endpoint. \n\nPlease look into the timeout issue and update the API documentation accordingly by Friday at 5 PM.\n\nAlso, let's schedule a 30-minute sync on Thursday, Aug 27 at 2:30 PM to discuss the rollout.\n\nRegards,\nDavid Ross",
+    "ground_truth": {
+      "is_spam": false,
+      "category": "work",
+      "importance": "high",
+      "is_actionable": true,
+      "tasks": [
+        {
+          "title": "Investigate /v1/payments webhook timeout issue",
+          "description": "Debug timeout issue on webhook endpoints reported by David's team",
+          "assignee": "user",
+          "status": "pending"
+        },
+        {
+          "title": "Update API documentation for webhooks",
+          "description": "Update API docs for webhook endpoints by Friday 5 PM",
+          "assignee": "user",
+          "status": "pending"
+        }
+      ],
+      "events_deadlines": [
+        {
+          "type": "deadline",
+          "raw_text": "Friday at 5 PM",
+          "normalized_datetime": "2026-08-28T17:00:00",
+          "description": "Update API documentation"
+        },
+        {
+          "type": "meeting",
+          "raw_text": "Thursday, Aug 27 at 2:30 PM",
+          "normalized_datetime": "2026-08-27T14:30:00",
+          "description": "30-minute sync with David Ross on API rollout"
+        }
+      ],
+      "priority": "High",
+      "recommended_action": {
+        "action_type": "create_task_and_reminder",
+        "requires_human_approval": true,
+        "draft_reply": "Hi David,\n\nThanks for the feedback. I am investigating the /v1/payments timeout and will have the documentation updated by Friday 5 PM. Thursday at 2:30 PM works for the sync.\n\nBest,\nAlex"
+      }
+    }
+  },
+  {
+    "email_id": "email_030",
+    "timestamp": "2026-08-24T15:30:00",
+    "sender": "reception@cityhealthclinic.com",
+    "sender_name": "City Health Clinic",
+    "recipient": "alex.dev@techcorp.io",
+    "subject": "[PERSONAL] Appointment Confirmation & Pre-visit Form #30",
+    "body": "Hello Alex,\n\nThis is a reminder for your annual physical exam scheduled for Thursday, September 3 at 11:00 AM.\n\nPlease complete your online medical history intake form at least 24 hours in advance by Sept 2 at 11:00 AM.\n\nClinic Staff",
+    "ground_truth": {
+      "is_spam": false,
+      "category": "personal",
+      "importance": "high",
+      "is_actionable": true,
+      "tasks": [
+        {
+          "title": "Fill out medical history intake form for annual physical",
+          "description": "Complete clinic intake form online 24h prior to appointment",
+          "assignee": "user",
+          "status": "pending"
+        }
+      ],
+      "events_deadlines": [
+        {
+          "type": "deadline",
+          "raw_text": "Sept 2 at 11:00 AM",
+          "normalized_datetime": "2026-09-02T11:00:00",
+          "description": "Complete clinic pre-visit intake form"
+        },
+        {
+          "type": "event",
+          "raw_text": "Thursday, September 3 at 11:00 AM",
+          "normalized_datetime": "2026-09-03T11:00:00",
+          "description": "Annual physical appointment"
+        }
+      ],
+      "priority": "High",
+      "recommended_action": {
+        "action_type": "create_task_and_reminder",
+        "requires_human_approval": false,
+        "draft_reply": null
+      }
+    }
+  },
+  {
+    "email_id": "email_050",
+    "timestamp": "2026-08-25T11:50:00",
+    "sender": "reception@cityhealthclinic.com",
+    "sender_name": "City Health Clinic",
+    "recipient": "alex.dev@techcorp.io",
+    "subject": "[PERSONAL] Appointment Confirmation & Pre-visit Form #50",
+    "body": "Hello Alex,\n\nThis is a reminder for your annual physical exam scheduled for Thursday, September 3 at 11:00 AM.\n\nPlease complete your online medical history intake form at least 24 hours in advance by Sept 2 at 11:00 AM.\n\nClinic Staff",
+    "ground_truth": {
+      "is_spam": false,
+      "category": "personal",
+      "importance": "high",
+      "is_actionable": true,
+      "tasks": [
+        {
+          "title": "Fill out medical history intake form for annual physical",
+          "description": "Complete clinic intake form online 24h prior to appointment",
+          "assignee": "user",
+          "status": "pending"
+        }
+      ],
+      "events_deadlines": [
+        {
+          "type": "deadline",
+          "raw_text": "Sept 2 at 11:00 AM",
+          "normalized_datetime": "2026-09-02T11:00:00",
+          "description": "Complete clinic pre-visit intake form"
+        },
+        {
+          "type": "event",
+          "raw_text": "Thursday, September 3 at 11:00 AM",
+          "normalized_datetime": "2026-09-03T11:00:00",
+          "description": "Annual physical appointment"
+        }
+      ],
+      "priority": "High",
+      "recommended_action": {
+        "action_type": "create_task_and_reminder",
+        "requires_human_approval": false,
+        "draft_reply": null
+      }
+    }
+  },
+  {
+    "email_id": "email_013",
+    "timestamp": "2026-08-23T22:31:00",
+    "sender": "deals@techgear.shop",
+    "sender_name": "TechGear Shop",
+    "recipient": "alex.dev@techcorp.io",
+    "subject": "[PROMOTIONAL] Back to School Tech Deals - Up to 40% Off Laptops & Monitors #13",
+    "body": "Don't miss our biggest tech sale of the summer! Get top-tier 4K monitors, mechanical keyboards, and noise-canceling headphones at unbeatable prices.\n\nShop now: https://techgear.shop/deals\n\nSale expires Monday, Aug 31 at 11:59 PM.",
+    "ground_truth": {
+      "is_spam": false,
+      "category": "promotional",
+      "importance": "low",
+      "is_actionable": false,
+      "tasks": [],
+      "events_deadlines": [
+        {
+          "type": "event",
+          "raw_text": "Monday, Aug 31 at 11:59 PM",
+          "normalized_datetime": "2026-08-31T23:59:00",
+          "description": "TechGear sale expiration"
+        }
+      ],
+      "priority": "Low",
+      "recommended_action": {
+        "action_type": "archive_label",
+        "requires_human_approval": false,
+        "draft_reply": null
+      }
+    }
+  },
+  {
+    "email_id": "email_027",
+    "timestamp": "2026-08-24T12:09:00",
+    "sender": "elena.client@globalfirm.org",
+    "sender_name": "Elena Rostova",
+    "recipient": "alex.dev@techcorp.io",
+    "subject": "[WORK] Contract Renewal Q4 & Feedback Form #27",
+    "body": "Dear Alex,\n\nWe are preparing the Q4 service contract renewal. Please complete the attached vendor feedback form and submit it to our procurement team by August 31, 2026 at 5:00 PM.\n\nKind regards,\nElena",
+    "ground_truth": {
+      "is_spam": false,
+      "category": "work",
+      "importance": "high",
+      "is_actionable": true,
+      "tasks": [
+        {
+          "title": "Complete and submit vendor feedback form for Q4 renewal",
+          "description": "Fill out attached procurement form and email to Elena by Aug 31",
+          "assignee": "user",
+          "status": "pending"
+        }
+      ],
+      "events_deadlines": [
+        {
+          "type": "deadline",
+          "raw_text": "August 31, 2026 at 5:00 PM",
+          "normalized_datetime": "2026-08-31T17:00:00",
+          "description": "Submit vendor feedback form"
+        }
+      ],
+      "priority": "High",
+      "recommended_action": {
+        "action_type": "create_task_and_reminder",
+        "requires_human_approval": true,
+        "draft_reply": "Dear Elena, thank you. I will complete the feedback form and submit it before August 31, 5:00 PM."
+      }
+    }
+  },
+  {
+    "email_id": "email_042",
+    "timestamp": "2026-08-25T03:54:00",
+    "sender": "sam.legal@techcorp.io",
+    "sender_name": "Samira Legal",
+    "recipient": "alex.dev@techcorp.io",
+    "subject": "[WORK] NDA Signature Required for Partner Alpha #42",
+    "body": "Hi Alex,\n\nAttached is the non-disclosure agreement for our upcoming partnership with Partner Alpha. Please sign and return the executed PDF by Thursday at 12:00 PM.\n\nBest,\nSamira",
+    "ground_truth": {
+      "is_spam": false,
+      "category": "work",
+      "importance": "medium",
+      "is_actionable": true,
+      "tasks": [
+        {
+          "title": "Sign and return Partner Alpha NDA PDF",
+          "description": "Sign executed NDA and email back to Samira by Thursday noon",
+          "assignee": "user",
+          "status": "pending"
+        }
+      ],
+      "events_deadlines": [
+        {
+          "type": "deadline",
+          "raw_text": "Thursday at 12:00 PM",
+          "normalized_datetime": "2026-08-27T12:00:00",
+          "description": "Signed NDA due to Legal"
+        }
+      ],
+      "priority": "Medium",
+      "recommended_action": {
+        "action_type": "create_task_and_reminder",
+        "requires_human_approval": true,
+        "draft_reply": "Hi Samira, received. I will sign and return the NDA before Thursday 12:00 PM."
+      }
+    }
+  },
+  {
+    "email_id": "email_047",
+    "timestamp": "2026-08-25T08:29:00",
+    "sender": "elena.client@globalfirm.org",
+    "sender_name": "Elena Rostova",
+    "recipient": "alex.dev@techcorp.io",
+    "subject": "[WORK] Contract Renewal Q4 & Feedback Form #47",
+    "body": "Dear Alex,\n\nWe are preparing the Q4 service contract renewal. Please complete the attached vendor feedback form and submit it to our procurement team by August 31, 2026 at 5:00 PM.\n\nKind regards,\nElena",
+    "ground_truth": {
+      "is_spam": false,
+      "category": "work",
+      "importance": "high",
+      "is_actionable": true,
+      "tasks": [
+        {
+          "title": "Complete and submit vendor feedback form for Q4 renewal",
+          "description": "Fill out attached procurement form and email to Elena by Aug 31",
+          "assignee": "user",
+          "status": "pending"
+        }
+      ],
+      "events_deadlines": [
+        {
+          "type": "deadline",
+          "raw_text": "August 31, 2026 at 5:00 PM",
+          "normalized_datetime": "2026-08-31T17:00:00",
+          "description": "Submit vendor feedback form"
+        }
+      ],
+      "priority": "High",
+      "recommended_action": {
+        "action_type": "create_task_and_reminder",
+        "requires_human_approval": true,
+        "draft_reply": "Dear Elena, thank you. I will complete the feedback form and submit it before August 31, 5:00 PM."
+      }
+    }
+  },
+  {
+    "email_id": "email_004",
+    "timestamp": "2026-08-23T12:00:00",
+    "sender": "news@cloudhosting.net",
+    "sender_name": "CloudHosting Pro",
+    "recipient": "alex.dev@techcorp.io",
+    "subject": "Flash Sale: 50% Off All Dedicated Cloud Instances This Weekend!",
+    "body": "Hi Alex,\n\nUpgrade your infrastructure today! For the next 48 hours only, get 50% off our Enterprise NVMe dedicated cloud servers. Use promo code FLASH50 at checkout.\n\nOffer ends Sunday midnight.\n\nUnsubscribe from these emails anytime by clicking here.",
+    "ground_truth": {
+      "is_spam": false,
+      "category": "promotional",
+      "importance": "low",
+      "is_actionable": false,
+      "tasks": [],
+      "events_deadlines": [
+        {
+          "type": "event",
+          "raw_text": "Sunday midnight",
+          "normalized_datetime": "2026-08-30T23:59:59",
+          "description": "Flash sale promo code FLASH50 expiration"
+        }
+      ],
+      "priority": "Low",
+      "recommended_action": {
+        "action_type": "archive_label",
+        "requires_human_approval": false,
+        "draft_reply": null
+      }
+    }
+  },
+  {
+    "email_id": "email_010",
+    "timestamp": "2026-08-23T18:00:00",
+    "sender": "security-alert@service-paypal-verify.net",
+    "sender_name": "PayPal Security",
+    "recipient": "alex.dev@techcorp.io",
+    "subject": "Account Suspended: Verify your identity immediately",
+    "body": "We detected unauthorized login attempts from IP 192.168.4.12. Your account has been temporarily restricted.\n\nTo restore your account access, click here: http://service-paypal-verify.net/restore\n\nIf you do not verify within 12 hours, your account will be permanently closed.",
+    "ground_truth": {
+      "is_spam": true,
+      "category": "spam",
+      "importance": "low",
+      "is_actionable": false,
+      "tasks": [],
+      "events_deadlines": [],
+      "priority": "Low",
+      "recommended_action": {
+        "action_type": "archive_label",
+        "requires_human_approval": false,
+        "draft_reply": null
+      }
+    }
+  },
+  {
+    "email_id": "email_041",
+    "timestamp": "2026-08-25T02:47:00",
+    "sender": "rachel.pm@techcorp.io",
+    "sender_name": "Rachel Green (Product)",
+    "recipient": "alex.dev@techcorp.io",
+    "subject": "[WORK] Sprint 42 Backlog Grooming Action Items #41",
+    "body": "Hi Alex,\n\nFollowing our grooming session, please estimate story points for tickets TECH-401 through TECH-410 by tomorrow at 2:00 PM. Also, please review the PR from backend team before end of day Wednesday.\n\nThanks,\nRachel",
+    "ground_truth": {
+      "is_spam": false,
+      "category": "work",
+      "importance": "high",
+      "is_actionable": true,
+      "tasks": [
+        {
+          "title": "Estimate story points for tickets TECH-401 to TECH-410",
+          "description": "Add estimates in Jira by tomorrow 2 PM",
+          "assignee": "user",
+          "status": "pending"
+        },
+        {
+          "title": "Review backend team Pull Request",
+          "description": "Review PR before end of day Wednesday",
+          "assignee": "user",
+          "status": "pending"
+        }
+      ],
+      "events_deadlines": [
+        {
+          "type": "deadline",
+          "raw_text": "tomorrow at 2:00 PM",
+          "normalized_datetime": "2026-08-24T14:00:00",
+          "description": "Jira ticket point estimations"
+        },
+        {
+          "type": "deadline",
+          "raw_text": "end of day Wednesday",
+          "normalized_datetime": "2026-08-26T18:00:00",
+          "description": "Backend PR review"
+        }
+      ],
+      "priority": "High",
+      "recommended_action": {
+        "action_type": "create_task_and_reminder",
+        "requires_human_approval": true,
+        "draft_reply": "Hi Rachel, I'll finish the story point estimates by 2 PM tomorrow and review the PR by Wednesday. Thanks!"
+      }
+    }
+  },
+  {
+    "email_id": "email_023",
+    "timestamp": "2026-08-24T08:41:00",
+    "sender": "deals@techgear.shop",
+    "sender_name": "TechGear Shop",
+    "recipient": "alex.dev@techcorp.io",
+    "subject": "[PROMOTIONAL] Back to School Tech Deals - Up to 40% Off Laptops & Monitors #23",
+    "body": "Don't miss our biggest tech sale of the summer! Get top-tier 4K monitors, mechanical keyboards, and noise-canceling headphones at unbeatable prices.\n\nShop now: https://techgear.shop/deals\n\nSale expires Monday, Aug 31 at 11:59 PM.",
+    "ground_truth": {
+      "is_spam": false,
+      "category": "promotional",
+      "importance": "low",
+      "is_actionable": false,
+      "tasks": [],
+      "events_deadlines": [
+        {
+          "type": "event",
+          "raw_text": "Monday, Aug 31 at 11:59 PM",
+          "normalized_datetime": "2026-08-31T23:59:00",
+          "description": "TechGear sale expiration"
+        }
+      ],
+      "priority": "Low",
+      "recommended_action": {
+        "action_type": "archive_label",
+        "requires_human_approval": false,
+        "draft_reply": null
+      }
+    }
+  },
+  {
+    "email_id": "email_022",
+    "timestamp": "2026-08-24T07:34:00",
+    "sender": "sam.legal@techcorp.io",
+    "sender_name": "Samira Legal",
+    "recipient": "alex.dev@techcorp.io",
+    "subject": "[WORK] NDA Signature Required for Partner Alpha #22",
+    "body": "Hi Alex,\n\nAttached is the non-disclosure agreement for our upcoming partnership with Partner Alpha. Please sign and return the executed PDF by Thursday at 12:00 PM.\n\nBest,\nSamira",
+    "ground_truth": {
+      "is_spam": false,
+      "category": "work",
+      "importance": "medium",
+      "is_actionable": true,
+      "tasks": [
+        {
+          "title": "Sign and return Partner Alpha NDA PDF",
+          "description": "Sign executed NDA and email back to Samira by Thursday noon",
+          "assignee": "user",
+          "status": "pending"
+        }
+      ],
+      "events_deadlines": [
+        {
+          "type": "deadline",
+          "raw_text": "Thursday at 12:00 PM",
+          "normalized_datetime": "2026-08-27T12:00:00",
+          "description": "Signed NDA due to Legal"
+        }
+      ],
+      "priority": "Medium",
+      "recommended_action": {
+        "action_type": "create_task_and_reminder",
+        "requires_human_approval": true,
+        "draft_reply": "Hi Samira, received. I will sign and return the NDA before Thursday 12:00 PM."
+      }
+    }
+  },
+  {
+    "email_id": "email_006",
+    "timestamp": "2026-08-23T14:00:00",
+    "sender": "emma.sister@gmail.com",
+    "sender_name": "Emma Wilson",
+    "recipient": "alex.dev@techcorp.io",
+    "subject": "Mom's Birthday Dinner this Saturday at 7 PM",
+    "body": "Hey Alex,\n\nWe are organizing Mom's surprise birthday dinner this Saturday at 7:00 PM at Olive Garden downtown. Can you please bring the birthday cake from Bella's Bakery? Make sure to pick it up by 5:30 PM before they close.\n\nLet me know if that works for you!\n\nLove,\nEmma",
+    "ground_truth": {
+      "is_spam": false,
+      "category": "personal",
+      "importance": "high",
+      "is_actionable": true,
+      "tasks": [
+        {
+          "title": "Pick up Mom's birthday cake from Bella's Bakery",
+          "description": "Pick up birthday cake by 5:30 PM this Saturday for surprise dinner",
+          "assignee": "user",
+          "status": "pending"
+        }
+      ],
+      "events_deadlines": [
+        {
+          "type": "deadline",
+          "raw_text": "Saturday by 5:30 PM",
+          "normalized_datetime": "2026-08-29T17:30:00",
+          "description": "Pick up cake from bakery before closing"
+        },
+        {
+          "type": "event",
+          "raw_text": "this Saturday at 7:00 PM",
+          "normalized_datetime": "2026-08-29T19:00:00",
+          "description": "Mom's surprise birthday dinner at Olive Garden"
+        }
+      ],
+      "priority": "Medium",
+      "recommended_action": {
+        "action_type": "create_task_and_reminder",
+        "requires_human_approval": true,
+        "draft_reply": "Hey Emma,\n\nSounds great! I'll order and pick up the cake from Bella's Bakery before 5:30 PM on Saturday and see you all at 7 PM.\n\nLove,\nAlex"
+      }
+    }
+  }
+]
